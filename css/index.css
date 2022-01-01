@@ -1,0 +1,158 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.logo{
+  font-size: 30px;
+  font-weight: 700;
+  color: #1281c2;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+  border-bottom: 2px solid #000;
+}
+
+nav ul li{
+  list-style: none;
+margin: 0px 15px;
+padding: 10px;
+
+}
+nav ul li a{
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 10px;
+ 
+}
+
+.login,.get{
+  background-color: #1281c2;
+  color: #fff;
+  border-radius: 20px;
+  
+}
+.pro{
+  background-color: rgb(247, 247, 12);
+  color: rgb(14, 13, 13);
+  border-radius: 20px;
+}
+.login a{
+  text-decoration: none;
+  color: white;
+}
+
+
+/* home page */
+.para{
+  color: #7e7575;
+  text-align: justify;
+}
+.box,.box1{
+  margin-top: 40px;
+}
+
+.box1 img{
+  width:100%;
+  height: 400px;
+  
+}
+/* our blog */
+
+.serbox{
+  margin-top: 60px;
+}
+.serbox1 img{
+  width:100%;
+  height: 400px;
+  margin-top: 30px;
+  
+}
+
+/* footer */
+
+.fb i{
+  color:blue;
+  font-size: 30px;
+  }
+  .tb i{
+  color:red;
+  font-size: 30px;
+  }
+  .int i{
+  color:#f24165;
+  font-size: 30px;
+  }
+
+
+  .blog{
+    padding: 100px 0px 60px;
+ 
+
+  }
+.blog h1{
+  font-size: 30px;
+  font-weight: bold;
+}  
+
+
+.blogset,.imgset {
+  margin: 80px 0px;
+}
+
+.imgset h2{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+
+
+/*   blog page ke liye hai*/
+/* .pop{ */
+  /* margin-top: 10px; */
+  /* border-top: 2px solid rgb(44, 37, 37); */
+  /* width: 71%; */
+/* } */
+
+.blogrow{
+  width: 71%;
+}
+
+.imp{
+  border: 1px solid rgb(75, 73, 77);
+}
+
+/* about */
+.about{
+  padding: 100px 0px 50px;
+}
+.apara{
+  text-align: justify;
+}
+
+
+
+.full img{
+  width: 100%;
+  height: auto;
+}
+
+
+.fa-user-alt{
+  color:#1281c2;
+  font-size: 25px;
+}
+
+.blogmd{
+  text-align: center;
+}
+
+@media (min-width: 1400px){
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1247px;
+}
+}
+
+
